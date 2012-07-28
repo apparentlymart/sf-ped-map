@@ -15,7 +15,7 @@ DEG_TO_RAD = pi/180
 RAD_TO_DEG = 180/pi
 
 # Default number of rendering threads to spawn, should be roughly equal to number of CPU cores available
-NUM_THREADS = 4
+NUM_THREADS = 1
 
 
 def minmax (a,b,c):
@@ -203,6 +203,15 @@ if __name__ == "__main__":
     if not tile_dir.endswith('/'):
         tile_dir = tile_dir + '/'
 
+    bbox = (37.705, -122.505, 37.821, -122.379)
+    bbox = (-2, 50.0,1.0,52.0)
+    bbox = (-122.505, 37.705, -122.379, 37.821)
+    min_zoom = 14
+    max_zoom = 18
+    #min_zoom = max_zoom = 15
+    render_tiles(bbox, mapfile, tile_dir, min_zoom, max_zoom)
+    import sys
+    sys.exit(0)
     #-------------------------------------------------------------------------
     #
     # Change the following for different bounding boxes and zoom levels

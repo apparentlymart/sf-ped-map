@@ -45,11 +45,11 @@
       <Filter>[amenity]='bus_station'</Filter>
       <PointSymbolizer file="&symbols;/bus_station.n.16.png" allow-overlap="false" placement="interior"/>
     </Rule>
-    <Rule>
+    <!-- Rule>
     &maxscale_zoom17;
     <Filter>[highway]='traffic_signals'</Filter>
     <PointSymbolizer file="&symbols;/traffic_light.png" placement="interior"/>
-    </Rule>
+    </Rule -->
     <Rule>
       &maxscale_zoom17;
       <Filter>[amenity]='cafe'</Filter>
@@ -160,7 +160,7 @@
       <Filter>[tourism]='museum'</Filter>
       <PointSymbolizer file="&symbols;/museum.p.16.png" placement="interior"/>
     </Rule>
-    <Rule>
+    <!-- Rule>
       &maxscale_zoom15;
       <Filter>[amenity] = 'parking' and ([access] = 'public' or [access] = 'yes' or not [access] != '')</Filter>
       <PointSymbolizer file="&symbols;/parking.p.16.png" allow-overlap="false" placement="interior"/>
@@ -169,7 +169,7 @@
       &maxscale_zoom15;
       <Filter>[amenity] = 'parking' and ([access] != '' and not [access] = 'public' and not [access] = 'yes')</Filter>
       <PointSymbolizer file="&symbols;/parking_private.p.16.png" allow-overlap="false" placement="interior"/>
-    </Rule>
+    </Rule -->
     <Rule>
       &maxscale_zoom17;
       <Filter>[amenity]='pharmacy'</Filter>
@@ -376,7 +376,7 @@
       where amenity is not null
          or shop is not null
          or tourism in ('alpine_hut','camp_site','caravan_site','guest_house','hostel','hotel','motel','museum','viewpoint','bed_and_breakfast','information','chalet')
-         or highway in ('bus_stop','traffic_signals','ford')
+         or highway in ('bus_stop','ford')
          or man_made in ('mast','water_tower')
          or historic in ('memorial','archaeological_site')
          or waterway='lock'
@@ -395,7 +395,7 @@
       where amenity is not null
          or shop is not null
          or tourism in ('alpine_hut','camp_site','caravan_site','guest_house','hostel','hotel','motel','museum','viewpoint','bed_and_breakfast','information','chalet')
-         or highway in ('bus_stop','traffic_signals')
+         or highway in ('bus_stop')
          or man_made in ('mast','water_tower')
          or historic in ('memorial','archaeological_site')
          or leisure='playground'
