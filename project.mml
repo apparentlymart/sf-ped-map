@@ -30,6 +30,27 @@
       }
     },
     {
+      "geometry": "polygon",
+      "extent": [
+        -122.4289934,
+        37.7664717,
+        -122.4161291,
+        37.776365
+      ],
+      "id": "landuse",
+      "class": "",
+      "Datasource": {
+        "file": "layers/landuse.csv",
+        "id": "landuse",
+        "project": "PedMap",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landuse"
+    },
+    {
       "geometry": "linestring",
       "extent": [
         -122.45373649999999,
@@ -49,6 +70,24 @@
       "srs": "",
       "advanced": {},
       "name": "highways"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -122.43683769999998,
+        37.7653394,
+        -122.4154701,
+        37.7780144
+      ],
+      "id": "buildings",
+      "class": "",
+      "Datasource": {
+        "file": "layers/buildings.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildings"
     }
   ],
   "scale": 1,

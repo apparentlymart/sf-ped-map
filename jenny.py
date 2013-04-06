@@ -127,7 +127,7 @@ class DataFile(object):
     def __init__(self, csv, tag_keys):
         self.csv = csv
         self.tag_keys = tag_keys
-        self.csv.writerow(["wkt"] + tag_keys)
+        self.csv.writerow(["wkt"] + [key.replace(":", "__") for key in tag_keys])
 
     @classmethod
     def open_new(cls, fn, tag_keys):
@@ -206,6 +206,14 @@ highways = DataFile.open_new("highways", [
     "on_bus_route",
     "interesting_to_peds",
 ])
+landuse = DataFile.open_new("landuse", [
+    "landuse",
+])
+buildings = DataFile.open_new("buildings", [
+    "name",
+    "building:levels",
+    "shop",
+])
 
 for way_id, way in ways.iteritems():
     if "highway" in way.tags:
@@ -236,3 +244,14 @@ for way_id, way in ways.iteritems():
 
             highways.add_way(way)
 
+    # Turn some area stuff into landuse for rendering simplicity
+    if way.tags.get("amenity") == "parking" and "landuse" not in way.tags:
+        way.tags["landuse"] = "parking"
+    if way.tags.get("leisure") == "park" and "landuse" not in way.tags:
+        way.tags["landuse"] = "park"
+
+    if "landuse" in way.tags:
+        landuse.add_polygon(way)
+
+    if "building" in way.tags:
+        buildings.add_polygon(way)

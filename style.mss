@@ -11,20 +11,52 @@ Map {
   polygon-fill: #eee;
 }
 
-#sqlitetest {
-  	polygon-fill: pink;
-    [type="residential"] {
-    	polygon-fill: blue;
-    }
+#landuse {
+  line-width: 2;
+  polygon-opacity:0;
+  line-opacity: 0;
+  [landuse="construction"] {
+    polygon-fill:#b6b591;
+    line-color:#a6a581;
+    polygon-opacity:1;
+    line-opacity: 1;
+  }
+  [landuse="retail"] {
+    polygon-fill:#f0dad9;
+    line-color:#e0cac9;
+    polygon-opacity:1;
+    line-opacity: 1;
+  }
+  [landuse="park"] {
+    polygon-fill:#daf0d9;
+    line-color:#cae0c9;
+    polygon-opacity:1;
+    line-opacity: 1;
+  }
+  [landuse="parking"] {
+    polygon-fill:#fff;
+    line-color:#ccc;
+    polygon-opacity:1;
+    line-opacity: 1;
+  }
 }
 
-#pointtest {
-  marker-width: 3;
-  marker-fill: #f00;
-  text-name: "[name]";
-  text-allow-overlap: true;
+#buildings {
+  line-color:#bcaeac;
+  line-width:2;
+  polygon-opacity:1;
+  polygon-fill:#ccbebc;
+  ::label[zoom>=19] {
+    text-placement: interior;
+    text-name: "[name]";
+    text-face-name: "Arial Regular";
+    text-size: 12;
+    text-wrap-width: 10;
+    text-fill: #7c6e6c;
+    text-halo-fill: #ccbebc;
+    text-halo-radius: 5;
+  }
 }
-
 
 #highways {
   [highway!="footway"] {
@@ -83,3 +115,4 @@ Map {
     }
   }
 }
+
