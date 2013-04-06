@@ -2,6 +2,20 @@
 <osm version='0.6' upload='true' generator='JOSM'>
   <bounds minlat='37.7656261' minlon='-122.4368548' maxlat='37.77755' maxlon='-122.4165559' origin='CGImap 0.1.0' />
   <bounds minlat='37.7746667' minlon='-122.3997974' maxlat='37.7844184' maxlon='-122.3837686' origin='CGImap 0.1.0' />
+  <node id='-19850' action='modify' visible='true' lat='37.779065857744285' lon='-122.39514709653604' />
+  <node id='-19831' action='modify' visible='true' lat='37.77866780246621' lon='-122.39410465044578' />
+  <node id='-19808' action='modify' visible='true' lat='37.778326961138916' lon='-122.39433641638004' />
+  <node id='-19752' action='modify' visible='true' lat='37.77959905699189' lon='-122.38761681414263' />
+  <node id='-19288' action='modify' visible='true' lat='37.77411405754858' lon='-122.42049138107983' />
+  <node id='-19286' action='modify' visible='true' lat='37.774217795539144' lon='-122.4206166531618' />
+  <node id='-19266' action='modify' visible='true' lat='37.7722188083628' lon='-122.42283144778935' />
+  <node id='-19264' action='modify' visible='true' lat='37.77228724989033' lon='-122.42293571268003' />
+  <node id='-19262' action='modify' visible='true' lat='37.772301172906616' lon='-122.42291457586919' />
+  <node id='-19260' action='modify' visible='true' lat='37.77235082882702' lon='-122.42297272059524' />
+  <node id='-19242' action='modify' visible='true' lat='37.77194397710173' lon='-122.42320037248842' />
+  <node id='-19240' action='modify' visible='true' lat='37.77205306838267' lon='-122.42332863657705' />
+  <node id='-19222' action='modify' visible='true' lat='37.771727330266984' lon='-122.4235026678534' />
+  <node id='-19220' action='modify' visible='true' lat='37.77184782731552' lon='-122.42357525352222' />
   <node id='30676463' timestamp='2011-06-30T01:59:55Z' uid='169004' user='oldtopos' visible='true' version='14' changeset='8586501' lat='37.7748642' lon='-122.3968713' />
   <node id='30676464' timestamp='2011-06-30T01:59:52Z' uid='169004' user='oldtopos' visible='true' version='11' changeset='8586501' lat='37.774311' lon='-122.3975728' />
   <node id='30676466' timestamp='2011-06-30T01:59:50Z' uid='169004' user='oldtopos' visible='true' version='13' changeset='8586501' lat='37.7725271' lon='-122.3998284' />
@@ -14487,6 +14501,244 @@
   <node id='2251965278' visible='true' version='1' changeset='15628685' lat='37.78202546000786' lon='-122.39353167348573' />
   <node id='2251965279' visible='true' version='1' changeset='15628685' lat='37.78210606150545' lon='-122.3933876456531' />
   <node id='2251965280' visible='true' version='1' changeset='15628685' lat='37.78217048222237' lon='-122.39328921814761' />
+  <way id='-19852' action='modify' visible='true'>
+    <nd ref='-19850' />
+    <nd ref='1614316069' />
+    <nd ref='65285613' />
+    <nd ref='65285615' />
+    <tag k='highway' v='service' />
+    <tag k='service' v='alley' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:reviewed' v='yes' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192295074' />
+    <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
+  </way>
+  <way id='-19834' action='modify' visible='true'>
+    <nd ref='-19831' />
+    <nd ref='65319456' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Clyde Street' />
+    <tag k='service' v='alley' />
+    <tag k='sidewalk' v='right' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Clyde' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:reviewed' v='yes' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192289484' />
+  </way>
+  <way id='-19818' action='modify' visible='true'>
+    <nd ref='65291003' />
+    <nd ref='-19808' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Lusk Street' />
+    <tag k='service' v='alley' />
+    <tag k='sidewalk' v='left' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Lusk' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:reviewed' v='yes' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192289482:192289483' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_left_1' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+  </way>
+  <way id='-19810' action='modify' visible='true'>
+    <nd ref='-19808' />
+    <nd ref='65291006' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Lusk Street' />
+    <tag k='service' v='alley' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Lusk' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:reviewed' v='yes' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192289482:192289483' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_left_1' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+  </way>
+  <way id='-19753' action='modify' visible='true'>
+    <nd ref='1865053213' />
+    <nd ref='-19752' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='-19743' action='modify' visible='true'>
+    <nd ref='1865053224' />
+    <nd ref='307082269' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='-19740' action='modify' visible='true'>
+    <nd ref='1865053217' />
+    <nd ref='1865053211' />
+    <tag k='highway' v='service' />
+    <tag k='sidewalk' v='both' />
+  </way>
+  <way id='-19732' action='modify' visible='true'>
+    <nd ref='1865053224' />
+    <nd ref='1865053219' />
+    <nd ref='1865053217' />
+    <tag k='highway' v='service' />
+    <tag k='sidewalk' v='right' />
+  </way>
+  <way id='-19717' action='modify' visible='true'>
+    <nd ref='1865053225' />
+    <nd ref='1865053219' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='-19707' action='modify' visible='true'>
+    <nd ref='1865053214' />
+    <nd ref='1865053225' />
+    <tag k='highway' v='service' />
+    <tag k='sidewalk' v='left' />
+  </way>
+  <way id='-19683' action='modify' visible='true'>
+    <nd ref='430971776' />
+    <nd ref='65325725' />
+    <tag k='highway' v='service' />
+    <tag k='sidewalk' v='right' />
+  </way>
+  <way id='-19655' action='modify' visible='true'>
+    <nd ref='430971711' />
+    <nd ref='276549461' />
+    <nd ref='1616423871' />
+    <nd ref='430971710' />
+    <nd ref='430971709' />
+    <nd ref='430971708' />
+    <nd ref='1616423807' />
+    <nd ref='1616423799' />
+    <nd ref='276549460' />
+    <nd ref='430971707' />
+    <nd ref='430971706' />
+    <nd ref='1616423736' />
+    <nd ref='65324703' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='5 mph' />
+    <tag k='name' v='Bayside Village Place' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_type' v='Pl' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192294911' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+  </way>
+  <way id='-19643' action='modify' visible='true'>
+    <nd ref='65324703' />
+    <nd ref='65324701' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='5 mph' />
+    <tag k='name' v='Bayside Village Place' />
+    <tag k='sidewalk' v='left' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_type' v='Pl' />
+    <tag k='tiger:separated' v='no' />
+    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
+    <tag k='tiger:tlid' v='192294911' />
+    <tag k='tiger:zip_left' v='94107' />
+    <tag k='tiger:zip_right' v='94107' />
+  </way>
+  <way id='-19504' action='modify' visible='true'>
+    <nd ref='65293870' />
+    <nd ref='65293874' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Alert Alley' />
+    <tag k='sidewalk' v='left' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Alert' />
+    <tag k='tiger:name_type' v='Aly' />
+    <tag k='tiger:reviewed' v='no' />
+    <tag k='tiger:zip_left' v='94114' />
+    <tag k='tiger:zip_right' v='94114' />
+  </way>
+  <way id='-19483' action='modify' visible='true'>
+    <nd ref='258967873' />
+    <nd ref='65306346' />
+    <nd ref='65306347' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Hidalgo Terrace' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Hidalgo' />
+    <tag k='tiger:name_type' v='Ter' />
+    <tag k='tiger:zip_left' v='94103' />
+    <tag k='tiger:zip_right' v='94103' />
+  </way>
+  <way id='-19289' action='modify' visible='true'>
+    <nd ref='-19286' />
+    <nd ref='-19288' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='-19263' action='modify' visible='true'>
+    <nd ref='-19260' />
+    <nd ref='-19262' />
+    <nd ref='-19264' />
+    <nd ref='-19266' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='-19243' action='modify' visible='true'>
+    <nd ref='-19240' />
+    <nd ref='-19242' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='-19223' action='modify' visible='true'>
+    <nd ref='-19220' />
+    <nd ref='-19222' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='-19205' action='modify' visible='true'>
+    <nd ref='1723563802' />
+    <nd ref='1723563794' />
+    <nd ref='1723564018' />
+    <nd ref='65318978' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Laguna Street' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Laguna' />
+    <tag k='tiger:name_type' v='St' />
+  </way>
+  <way id='-19195' action='modify' visible='true'>
+    <nd ref='65292019' />
+    <nd ref='295083423' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Clinton Park' />
+    <tag k='oneway' v='yes' />
+    <tag k='tiger:cfcc' v='A41' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Clinton Park' />
+    <tag k='tiger:reviewed' v='no' />
+    <tag k='tiger:zip_left' v='94103' />
+    <tag k='tiger:zip_right' v='94103' />
+  </way>
+  <way id='-19187' action='modify' visible='true'>
+    <nd ref='65294163' />
+    <nd ref='260496469' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Dolores Street' />
+    <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
+    <tag k='tiger:cfcc' v='A45' />
+    <tag k='tiger:county' v='San Francisco, CA' />
+    <tag k='tiger:name_base' v='Dolores' />
+    <tag k='tiger:name_type' v='St' />
+    <tag k='tiger:zip_left' v='94110' />
+  </way>
   <way id='4786909' timestamp='2012-08-13T22:43:43Z' uid='573196' user='nithin_telenav' visible='true' version='13' changeset='12720719'>
     <nd ref='30677579' />
     <nd ref='307105641' />
@@ -14614,13 +14866,12 @@
     <tag k='tiger:tlid' v='192287906' />
     <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
   </way>
-  <way id='8915520' timestamp='2012-02-01T15:23:57Z' uid='236172' user='saikofish' visible='true' version='5' changeset='10559598'>
+  <way id='8915520' action='modify' timestamp='2012-02-01T15:23:57Z' uid='236172' user='saikofish' visible='true' version='5' changeset='10559598'>
     <nd ref='1614316115' />
-    <nd ref='1614316069' />
-    <nd ref='65285613' />
-    <nd ref='65285615' />
+    <nd ref='-19850' />
     <tag k='highway' v='service' />
     <tag k='service' v='alley' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:reviewed' v='yes' />
@@ -14629,11 +14880,12 @@
     <tag k='tiger:tlid' v='192295074' />
     <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
   </way>
-  <way id='8915522' timestamp='2011-05-02T20:58:01Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='8034497'>
+  <way id='8915522' action='modify' timestamp='2011-05-02T20:58:01Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='8034497'>
     <nd ref='65285620' />
     <nd ref='1270635909' />
     <nd ref='65285622' />
     <tag k='highway' v='service' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:reviewed' v='no' />
@@ -14726,10 +14978,9 @@
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94107' />
   </way>
-  <way id='8916193' timestamp='2012-02-01T15:23:56Z' uid='236172' user='saikofish' visible='true' version='6' changeset='10559598'>
+  <way id='8916193' action='modify' timestamp='2012-02-01T15:23:56Z' uid='236172' user='saikofish' visible='true' version='6' changeset='10559598'>
     <nd ref='65286560' />
     <nd ref='65291003' />
-    <nd ref='65291006' />
     <tag k='highway' v='service' />
     <tag k='name' v='Lusk Street' />
     <tag k='service' v='alley' />
@@ -14779,24 +15030,21 @@
     <tag k='tiger:zip_left' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
-  <way id='8916313' timestamp='2010-03-27T15:15:47Z' uid='20587' user='balrog-kun' visible='true' version='3' changeset='4245371'>
+  <way id='8916313' action='modify' timestamp='2010-03-27T15:15:47Z' uid='20587' user='balrog-kun' visible='true' version='3' changeset='4245371'>
     <nd ref='258967875' />
     <nd ref='65293870' />
-    <nd ref='65293874' />
     <tag k='highway' v='residential' />
     <tag k='name' v='Alert Alley' />
+    <tag k='sidewalk' v='none' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Alert' />
     <tag k='tiger:name_type' v='Aly' />
     <tag k='tiger:reviewed' v='no' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192284220' />
     <tag k='tiger:zip_left' v='94114' />
     <tag k='tiger:zip_right' v='94114' />
   </way>
-  <way id='8916327' timestamp='2012-04-20T03:09:35Z' uid='14293' user='KindredCoda' visible='true' version='27' changeset='11359967'>
+  <way id='8916327' action='modify' timestamp='2012-04-20T03:09:35Z' uid='14293' user='KindredCoda' visible='true' version='27' changeset='11359967'>
     <nd ref='65367656' />
     <nd ref='1723563999' />
     <nd ref='1723564016' />
@@ -14804,17 +15052,14 @@
     <nd ref='1723563806' />
     <nd ref='1723563859' />
     <nd ref='65294163' />
-    <nd ref='260496469' />
     <tag k='highway' v='tertiary' />
     <tag k='name' v='Dolores Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='none' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Dolores' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192284225:192284238:192284868:192284926:192284939:192284946:192284948:192285120:192285124:192285137:192285142:192292267:192296508:192300225:192300227:192300229:192300231:192300247:192301176:192301182:192301184:192301186:192301188:192301200' />
     <tag k='tiger:zip_left' v='94110' />
   </way>
   <way id='8916421' timestamp='2012-05-09T06:01:14Z' uid='383461' user='phoenix23' visible='true' version='11' changeset='15627186'>
@@ -14954,7 +15199,7 @@
     <tag k='tiger:zip_left' v='94102' />
     <tag k='tiger:zip_right' v='94102' />
   </way>
-  <way id='8916889' timestamp='2012-12-29T09:20:25Z' uid='933797' user='oba510' visible='true' version='16' changeset='14448193'>
+  <way id='8916889' action='modify' timestamp='2012-12-29T09:20:25Z' uid='933797' user='oba510' visible='true' version='16' changeset='14448193'>
     <nd ref='298082886' />
     <nd ref='65306301' />
     <nd ref='65306295' />
@@ -14966,26 +15211,23 @@
     <tag k='name' v='Hickory Street' />
     <tag k='oneway' v='yes' />
     <tag k='service' v='alley' />
+    <tag k='sidewalk' v='both' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_type' v='St' />
     <tag k='tiger:zip_left' v='94102' />
     <tag k='tiger:zip_right' v='94102' />
   </way>
-  <way id='8916890' timestamp='2010-12-15T23:07:36Z' uid='28775' user='StellanL' visible='true' version='7' changeset='6672679'>
+  <way id='8916890' action='modify' timestamp='2010-12-15T23:07:36Z' uid='28775' user='StellanL' visible='true' version='7' changeset='6672679'>
     <nd ref='65294178' />
     <nd ref='258967873' />
-    <nd ref='65306346' />
-    <nd ref='65306347' />
     <tag k='highway' v='residential' />
     <tag k='name' v='Hidalgo Terrace' />
+    <tag k='sidewalk' v='none' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Hidalgo' />
     <tag k='tiger:name_type' v='Ter' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192284159' />
     <tag k='tiger:zip_left' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
@@ -15302,26 +15544,21 @@
     <tag k='tiger:zip_left' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
-  <way id='8917489' timestamp='2012-04-20T03:09:40Z' uid='14293' user='KindredCoda' visible='true' version='18' changeset='11359967'>
+  <way id='8917489' action='modify' timestamp='2012-04-20T03:09:40Z' uid='14293' user='KindredCoda' visible='true' version='18' changeset='11359967'>
     <nd ref='260543345' />
     <nd ref='1723563803' />
     <nd ref='1723563802' />
-    <nd ref='1723563794' />
-    <nd ref='1723564018' />
-    <nd ref='65318978' />
     <tag k='highway' v='residential' />
     <tag k='name' v='Laguna Street' />
+    <tag k='sidewalk' v='separate' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Laguna' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192279764:192279784' />
   </way>
-  <way id='8917495' timestamp='2012-02-01T15:20:09Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10559564'>
+  <way id='8917495' action='modify' timestamp='2012-02-01T15:20:09Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10559564'>
     <nd ref='65286560' />
-    <nd ref='65319456' />
+    <nd ref='-19831' />
     <tag k='highway' v='service' />
     <tag k='name' v='Clyde Street' />
     <tag k='service' v='alley' />
@@ -15389,25 +15626,13 @@
     <tag k='tiger:zip_left' v='94102' />
     <tag k='tiger:zip_right' v='94102' />
   </way>
-  <way id='8917778' timestamp='2012-08-06T19:50:21Z' uid='573196' user='nithin_telenav' visible='true' version='17' changeset='12638035'>
+  <way id='8917778' action='modify' timestamp='2012-08-06T19:50:21Z' uid='573196' user='nithin_telenav' visible='true' version='17' changeset='12638035'>
     <nd ref='65325715' />
     <nd ref='430971711' />
-    <nd ref='276549461' />
-    <nd ref='1616423871' />
-    <nd ref='430971710' />
-    <nd ref='430971709' />
-    <nd ref='430971708' />
-    <nd ref='1616423807' />
-    <nd ref='1616423799' />
-    <nd ref='276549460' />
-    <nd ref='430971707' />
-    <nd ref='430971706' />
-    <nd ref='1616423736' />
-    <nd ref='65324703' />
-    <nd ref='65324701' />
     <tag k='highway' v='unclassified' />
     <tag k='maxspeed' v='5 mph' />
     <tag k='name' v='Bayside Village Place' />
+    <tag k='sidewalk' v='left' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_type' v='Pl' />
@@ -15649,12 +15874,13 @@
     <tag k='tiger:zip_left' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
-  <way id='8918841' timestamp='2010-12-08T20:00:26Z' uid='116029' user='Gregory Arenius' visible='true' version='4' changeset='6588794'>
+  <way id='8918841' action='modify' timestamp='2010-12-08T20:00:26Z' uid='116029' user='Gregory Arenius' visible='true' version='4' changeset='6588794'>
     <nd ref='65330984' />
     <nd ref='539982505' />
     <nd ref='65317054' />
     <tag k='highway' v='service' />
     <tag k='name' v='De Boom Street' />
+    <tag k='sidewalk' v='both' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='De Boom' />
@@ -15749,11 +15975,12 @@
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94107' />
   </way>
-  <way id='8919076' timestamp='2010-12-08T20:00:25Z' uid='116029' user='Gregory Arenius' visible='true' version='5' changeset='6588794'>
+  <way id='8919076' action='modify' timestamp='2010-12-08T20:00:25Z' uid='116029' user='Gregory Arenius' visible='true' version='5' changeset='6588794'>
     <nd ref='65335564' />
     <nd ref='65317051' />
     <tag k='highway' v='service' />
     <tag k='name' v='Federal Street' />
+    <tag k='sidewalk' v='both' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Federal' />
@@ -15764,13 +15991,14 @@
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94107' />
   </way>
-  <way id='8919077' timestamp='2012-01-27T06:58:14Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10509622'>
+  <way id='8919077' action='modify' timestamp='2012-01-27T06:58:14Z' uid='236172' user='saikofish' visible='true' version='4' changeset='10509622'>
     <nd ref='65325723' />
     <nd ref='65335575' />
     <nd ref='65335577' />
     <tag k='highway' v='service' />
     <tag k='name' v='Federal Street' />
     <tag k='service' v='alley' />
+    <tag k='sidewalk' v='both' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Federal' />
@@ -15883,12 +16111,13 @@
     <tag k='tiger:zip_left' v='94123' />
     <tag k='tiger:zip_right' v='94123' />
   </way>
-  <way id='8919206' timestamp='2012-02-26T07:10:13Z' uid='19532' user='gaku' visible='true' version='5' changeset='10794857'>
+  <way id='8919206' action='modify' timestamp='2012-02-26T07:10:13Z' uid='19532' user='gaku' visible='true' version='5' changeset='10794857'>
     <nd ref='1648128589' />
     <nd ref='65337463' />
     <nd ref='65300076' />
     <tag k='highway' v='service' />
     <tag k='name' v='Saint Francis Place' />
+    <tag k='sidewalk' v='both' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Saint Francis' />
@@ -16183,7 +16412,7 @@
     <tag k='tiger:zip_left' v='94117' />
     <tag k='tiger:zip_right' v='94117' />
   </way>
-  <way id='8920043' timestamp='2012-04-20T09:05:34Z' uid='14293' user='KindredCoda' visible='true' version='19' changeset='11361726'>
+  <way id='8920043' action='modify' timestamp='2012-04-20T09:05:34Z' uid='14293' user='KindredCoda' visible='true' version='19' changeset='11361726'>
     <nd ref='1723738985' />
     <nd ref='1723739179' />
     <nd ref='1723738964' />
@@ -16194,13 +16423,11 @@
     <tag k='highway' v='secondary' />
     <tag k='name' v='Franklin Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='none' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Franklin' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192279779' />
   </way>
   <way id='8920077' timestamp='2011-05-14T00:45:05Z' uid='236172' user='saikofish' visible='true' version='4' changeset='8136869'>
     <nd ref='65317050' />
@@ -16242,13 +16469,14 @@
     <tag k='tiger:zip_left' v='94102' />
     <tag k='tiger:zip_right' v='94102' />
   </way>
-  <way id='8920179' timestamp='2011-05-02T22:58:33Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='8035462'>
+  <way id='8920179' action='modify' timestamp='2011-05-02T22:58:33Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='8035462'>
     <nd ref='65317043' />
     <nd ref='65352273' />
     <nd ref='1270720139' />
     <nd ref='539989862' />
     <tag k='highway' v='residential' />
     <tag k='name' v='Dow Place' />
+    <tag k='sidewalk' v='none' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Dow' />
@@ -16625,7 +16853,7 @@
     <tag k='tiger:zip_left' v='94114' />
     <tag k='tiger:zip_right' v='94114' />
   </way>
-  <way id='8921413' timestamp='2013-04-04T15:40:48Z' uid='6585' user='Martin Atkins' visible='true' version='44' changeset='15609380'>
+  <way id='8921413' action='modify' timestamp='2013-04-04T15:40:48Z' uid='6585' user='Martin Atkins' visible='true' version='44' changeset='15609380'>
     <nd ref='65314360' />
     <nd ref='2248769201' />
     <nd ref='1723563950' />
@@ -16639,6 +16867,7 @@
     <nd ref='2248769212' />
     <nd ref='65292398' />
     <nd ref='378431868' />
+    <nd ref='-19222' />
     <nd ref='1723563901' />
     <nd ref='258768383' />
     <tag k='cycleway' v='lane' />
@@ -16646,6 +16875,7 @@
     <tag k='lcn_ref' v='50' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
@@ -16772,7 +17002,7 @@
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94107' />
   </way>
-  <way id='8922029' timestamp='2012-01-27T06:58:14Z' uid='236172' user='saikofish' visible='true' version='9' changeset='10509622'>
+  <way id='8922029' action='modify' timestamp='2012-01-27T06:58:14Z' uid='236172' user='saikofish' visible='true' version='9' changeset='10509622'>
     <nd ref='65335575' />
     <nd ref='65372273' />
     <nd ref='65290207' />
@@ -16781,6 +17011,7 @@
     <tag k='name' v='Rincon Street' />
     <tag k='name_1' v='Rincon Alley' />
     <tag k='service' v='alley' />
+    <tag k='sidewalk' v='both' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Rincon' />
@@ -17174,23 +17405,19 @@
     <tag k='leisure' v='park' />
     <tag k='name' v='South Beach Park' />
   </way>
-  <way id='23861716' timestamp='2012-04-20T03:09:39Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='11359967'>
+  <way id='23861716' action='modify' timestamp='2012-04-20T03:09:39Z' uid='14293' user='KindredCoda' visible='true' version='8' changeset='11359967'>
     <nd ref='65294163' />
     <nd ref='1723563913' />
     <nd ref='1723563798' />
     <nd ref='65292019' />
-    <nd ref='295083423' />
     <tag k='highway' v='residential' />
     <tag k='name' v='Clinton Park' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='none' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Clinton Park' />
     <tag k='tiger:reviewed' v='no' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192284195:192284197; 192284153:192296512' />
-    <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
     <tag k='tiger:zip_left' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
@@ -17724,7 +17951,7 @@
     <tag k='highway' v='unclassified' />
     <tag k='oneway' v='yes' />
   </way>
-  <way id='24603573' timestamp='2011-10-18T20:52:23Z' uid='207745' user='NE2' visible='true' version='18' changeset='9595130'>
+  <way id='24603573' action='modify' timestamp='2011-10-18T20:52:23Z' uid='207745' user='NE2' visible='true' version='18' changeset='9595130'>
     <nd ref='65281218' />
     <nd ref='267455477' />
     <tag k='highway' v='primary' />
@@ -17732,6 +17959,7 @@
     <tag k='maxspeed' v='30 mph' />
     <tag k='name' v='Octavia Boulevard' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='none' />
   </way>
   <way id='24603666' timestamp='2013-02-19T18:21:16Z' uid='119881' user='Clorox' visible='true' version='22' changeset='15627190'>
     <nd ref='65324344' />
@@ -19004,7 +19232,7 @@
     <tag k='tiger:zip_left' v='94114' />
     <tag k='tiger:zip_right' v='94114' />
   </way>
-  <way id='27147680' timestamp='2012-11-03T20:18:28Z' uid='933797' user='oba510' visible='true' version='17' changeset='13738945'>
+  <way id='27147680' action='modify' timestamp='2012-11-03T20:18:28Z' uid='933797' user='oba510' visible='true' version='17' changeset='13738945'>
     <nd ref='260494513' />
     <nd ref='1723564021' />
     <nd ref='1996007217' />
@@ -19034,13 +19262,11 @@
     <tag k='lcn_ref' v='50' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192301125:192301149:192284374:192284377:192298285:192300167:192284313:192295226:192301104:192283626:192283641:192283643:192284303:192284323:192284347:192284380:192301211:192284062:192284131:192284148:192284057:192284076' />
     <tag k='tiger:zip_left' v='94131' />
   </way>
   <way id='27167746' timestamp='2012-12-29T18:45:32Z' uid='933797' user='oba510' visible='true' version='19' changeset='14454743'>
@@ -20390,7 +20616,7 @@
     <tag k='area' v='yes' />
     <tag k='created_by' v='Potlatch 0.10f' />
   </way>
-  <way id='32929982' timestamp='2012-11-21T09:21:33Z' uid='481533' user='dbaron' visible='true' version='11' changeset='13956128'>
+  <way id='32929982' action='modify' timestamp='2012-11-21T09:21:33Z' uid='481533' user='dbaron' visible='true' version='11' changeset='13956128'>
     <nd ref='260496469' />
     <nd ref='65294178' />
     <nd ref='65294188' />
@@ -20428,13 +20654,11 @@
     <tag k='highway' v='tertiary' />
     <tag k='name' v='Dolores Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Dolores' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192284225:192284238:192284868:192284926:192284939:192284946:192284948:192285120:192285124:192285137:192285142:192292267:192296508:192300225:192300227:192300229:192300231:192300247:192301176:192301182:192301184:192301186:192301188:192301200' />
     <tag k='tiger:zip_left' v='94110' />
   </way>
   <way id='32929983' timestamp='2012-03-17T02:51:57Z' uid='14293' user='KindredCoda' visible='true' version='11' changeset='11004273'>
@@ -21234,11 +21458,10 @@
     <nd ref='430971776' />
     <tag k='highway' v='service' />
   </way>
-  <way id='37057428' timestamp='2009-06-29T23:39:06Z' uid='24452' user='Speight' visible='true' version='2' changeset='1683183'>
+  <way id='37057428' action='modify' timestamp='2009-06-29T23:39:06Z' uid='24452' user='Speight' visible='true' version='2' changeset='1683183'>
     <nd ref='430971799' />
     <nd ref='430971800' />
     <nd ref='430971776' />
-    <nd ref='65325725' />
     <tag k='highway' v='service' />
   </way>
   <way id='37057430' timestamp='2009-06-29T23:39:30Z' uid='24452' user='Speight' visible='true' version='1' changeset='1683183'>
@@ -23291,9 +23514,10 @@
     <tag k='oneway' v='yes' />
     <tag k='sidewalk' v='none' />
   </way>
-  <way id='87554932' timestamp='2013-04-04T15:40:48Z' uid='6585' user='Martin Atkins' visible='true' version='14' changeset='15609380'>
+  <way id='87554932' action='modify' timestamp='2013-04-04T15:40:48Z' uid='6585' user='Martin Atkins' visible='true' version='14' changeset='15609380'>
     <nd ref='267455452' />
     <nd ref='1930265824' />
+    <nd ref='-19220' />
     <nd ref='258969415' />
     <nd ref='1723563931' />
     <nd ref='1723563869' />
@@ -23308,6 +23532,7 @@
     <tag k='lcn_ref' v='30;50' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
@@ -24526,18 +24751,20 @@
     <tag k='name' v='Harvey Milk Recreational Arts Center' />
     <tag k='toilets' v='yes' />
   </way>
-  <way id='112073356' timestamp='2011-05-06T21:51:07Z' uid='381909' user='JessAk71' visible='true' version='1' changeset='8069394'>
+  <way id='112073356' action='modify' timestamp='2011-05-06T21:51:07Z' uid='381909' user='JessAk71' visible='true' version='1' changeset='8069394'>
     <nd ref='1274907128' />
     <nd ref='1274907145' />
     <nd ref='1274907147' />
     <tag k='highway' v='service' />
     <tag k='service' v='driveway' />
+    <tag k='sidewalk' v='both' />
   </way>
-  <way id='112266974' timestamp='2011-05-08T01:22:41Z' uid='67236' user='jfire' visible='true' version='1' changeset='8078370'>
+  <way id='112266974' action='modify' timestamp='2011-05-08T01:22:41Z' uid='67236' user='jfire' visible='true' version='1' changeset='8078370'>
     <nd ref='1274907145' />
     <nd ref='1276562688' />
     <tag k='highway' v='service' />
     <tag k='service' v='driveway' />
+    <tag k='sidewalk' v='left' />
   </way>
   <way id='112408723' timestamp='2011-05-08T22:01:05Z' uid='67236' user='jfire' visible='true' version='1' changeset='8088257'>
     <nd ref='65287235' />
@@ -26202,7 +26429,7 @@
     <tag k='tiger:zip_left' v='94117' />
     <tag k='tiger:zip_right' v='94117' />
   </way>
-  <way id='120257667' timestamp='2012-04-19T22:02:31Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='11358913'>
+  <way id='120257667' action='modify' timestamp='2012-04-19T22:02:31Z' uid='14293' user='KindredCoda' visible='true' version='6' changeset='11358913'>
     <nd ref='65309842' />
     <nd ref='65318037' />
     <tag k='cycleway' v='lane' />
@@ -26210,14 +26437,11 @@
     <tag k='lcn_ref' v='50' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192283520:192283521:192283617:192284068:192284139:192284316:192291584:192291585:192293923:192294499:192294500:192298286:192298615:192298616:192298619:192298620:192301128:192301136:192301210:192301614:192301645:192301665:192301808; 192287337:192301765:1923' />
-    <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
   </way>
   <way id='121024969' timestamp='2012-02-11T22:08:18Z' uid='236172' user='saikofish' visible='true' version='2' changeset='10658069'>
     <nd ref='1126948134' />
@@ -28842,7 +29066,7 @@
     <tag k='tiger:zip_left' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
-  <way id='133781788' timestamp='2012-04-20T09:05:26Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11361726'>
+  <way id='133781788' action='modify' timestamp='2012-04-20T09:05:26Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11361726'>
     <nd ref='1723738980' />
     <nd ref='1723739151' />
     <nd ref='1723739117' />
@@ -28853,13 +29077,10 @@
     <tag k='highway' v='tertiary' />
     <tag k='name' v='Valencia Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='none' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192284173:192284179' />
-    <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
     <tag k='tiger:zip_left' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
@@ -28881,7 +29102,7 @@
     <tag k='tiger:zip_left_1' v='94103' />
     <tag k='tiger:zip_right' v='94103' />
   </way>
-  <way id='135110259' timestamp='2012-09-03T06:39:47Z' uid='207745' user='NE2' visible='true' version='3' changeset='12963218'>
+  <way id='135110259' action='modify' timestamp='2012-09-03T06:39:47Z' uid='207745' user='NE2' visible='true' version='3' changeset='12963218'>
     <nd ref='65290207' />
     <nd ref='539982523' />
     <nd ref='1895821095' />
@@ -28890,6 +29111,7 @@
     <tag k='highway' v='service' />
     <tag k='name' v='Rincon Street' />
     <tag k='name_1' v='Rincon Alley' />
+    <tag k='sidewalk' v='both' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Rincon' />
@@ -30714,7 +30936,7 @@
     <tag k='tiger:zip_right' v='94131' />
     <tag k='trolley_wire' v='yes' />
   </way>
-  <way id='148899887' timestamp='2012-04-20T03:09:30Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='11359967'>
+  <way id='148899887' action='modify' timestamp='2012-04-20T03:09:30Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='11359967'>
     <nd ref='260494509' />
     <nd ref='1723563949' />
     <nd ref='1723563998' />
@@ -30727,13 +30949,11 @@
     <tag k='lcn_ref' v='50' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192301125:192301149:192284374:192284377:192298285:192300167:192284313:192295226:192301104:192283626:192283641:192283643:192284303:192284323:192284347:192284380:192301211:192284062:192284131:192284148:192284057:192284076' />
     <tag k='tiger:zip_left' v='94131' />
   </way>
   <way id='148899888' timestamp='2012-04-19T22:02:28Z' uid='14293' user='KindredCoda' visible='true' version='2' changeset='11358913'>
@@ -31610,7 +31830,7 @@
     <tag k='tiger:zip_right' v='94131' />
     <tag k='trolley_wire' v='yes' />
   </way>
-  <way id='154648143' timestamp='2012-04-20T03:09:42Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11359967'>
+  <way id='154648143' action='modify' timestamp='2012-04-20T03:09:42Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11359967'>
     <nd ref='65318037' />
     <nd ref='1563088568' />
     <nd ref='1723563977' />
@@ -31630,14 +31850,11 @@
     <tag k='lcn_ref' v='50' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192283520:192283521:192283617:192284068:192284139:192284316:192291584:192291585:192293923:192294499:192294500:192298286:192298615:192298616:192298619:192298620:192301128:192301136:192301210:192301614:192301645:192301665:192301808; 192287337:192301765:1923' />
-    <tag k='tiger:upload_uuid' v='bulk_upload.pl-4ddcfcfe-e298-4ca3-a789-35779f3bf445' />
   </way>
   <way id='154648296' timestamp='2013-03-25T04:40:34Z' uid='47892' user='richlv' visible='true' version='3' changeset='15487056'>
     <nd ref='65325371' />
@@ -32239,7 +32456,7 @@
     <tag k='tunnel' v='yes' />
     <tag k='voltage' v='600' />
   </way>
-  <way id='160305457' timestamp='2013-04-04T15:40:48Z' uid='6585' user='Martin Atkins' visible='true' version='3' changeset='15609380'>
+  <way id='160305457' action='modify' timestamp='2013-04-04T15:40:48Z' uid='6585' user='Martin Atkins' visible='true' version='3' changeset='15609380'>
     <nd ref='1723563802' />
     <nd ref='1723563940' />
     <nd ref='2248769209' />
@@ -32256,6 +32473,7 @@
     <tag k='lcn_ref' v='30;50' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
@@ -32629,11 +32847,12 @@
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94107' />
   </way>
-  <way id='160325578' timestamp='2013-02-10T19:03:58Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14985463'>
+  <way id='160325578' action='modify' timestamp='2013-02-10T19:03:58Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14985463'>
     <nd ref='1723738948' />
     <nd ref='1723738956' />
     <nd ref='1723739237' />
     <nd ref='1723739017' />
+    <nd ref='-19286' />
     <nd ref='1723739106' />
     <nd ref='1723739120' />
     <nd ref='1723739176' />
@@ -32645,18 +32864,20 @@
     <tag k='highway' v='primary' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
     <tag k='tiger:name_type' v='St' />
   </way>
-  <way id='160325579' timestamp='2013-01-21T19:14:30Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14737162'>
+  <way id='160325579' action='modify' timestamp='2013-01-21T19:14:30Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14737162'>
     <nd ref='258768383' />
     <nd ref='65281218' />
     <tag k='cycleway' v='lane' />
     <tag k='highway' v='primary' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
@@ -33096,9 +33317,10 @@
     <tag k='name' v='San Francisco Fire Station 8' />
     <tag k='operator' v='San Francisco Fire Department' />
   </way>
-  <way id='162324921' timestamp='2012-12-16T12:14:27Z' uid='933797' user='oba510' visible='true' version='3' changeset='14292053'>
+  <way id='162324921' action='modify' timestamp='2012-12-16T12:14:27Z' uid='933797' user='oba510' visible='true' version='3' changeset='14292053'>
     <nd ref='1742314502' />
     <nd ref='1865053216' />
+    <nd ref='-19752' />
     <nd ref='1742314505' />
     <nd ref='1865053223' />
     <nd ref='1742314507' />
@@ -33852,31 +34074,29 @@
     <tag k='tunnel' v='yes' />
     <tag k='voltage' v='1000' />
   </way>
-  <way id='175941558' timestamp='2012-08-13T22:57:18Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12720830'>
+  <way id='175941558' action='modify' timestamp='2012-08-13T22:57:18Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12720830'>
     <nd ref='1865053218' />
     <nd ref='1865053210' />
     <nd ref='1865053214' />
     <tag k='highway' v='service' />
+    <tag k='sidewalk' v='left' />
   </way>
-  <way id='175941559' timestamp='2012-08-13T22:57:18Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12720830'>
+  <way id='175941559' action='modify' timestamp='2012-08-13T22:57:18Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12720830'>
     <nd ref='1865053225' />
     <nd ref='1865053213' />
     <nd ref='1865053217' />
-    <nd ref='1865053211' />
     <tag k='highway' v='service' />
+    <tag k='sidewalk' v='left' />
   </way>
-  <way id='175941560' timestamp='2012-10-30T22:08:41Z' uid='595221' user='matthieun' visible='true' version='3' changeset='13692280'>
+  <way id='175941560' action='modify' timestamp='2012-10-30T22:08:41Z' uid='595221' user='matthieun' visible='true' version='3' changeset='13692280'>
     <nd ref='1865053222' />
     <nd ref='1865053214' />
-    <nd ref='1865053225' />
-    <nd ref='1865053219' />
     <tag k='highway' v='service' />
+    <tag k='sidewalk' v='both' />
   </way>
-  <way id='175941561' timestamp='2012-08-13T22:57:18Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12720830'>
+  <way id='175941561' action='modify' timestamp='2012-08-13T22:57:18Z' uid='573196' user='nithin_telenav' visible='true' version='2' changeset='12720830'>
     <nd ref='1865053210' />
     <nd ref='1865053224' />
-    <nd ref='1865053219' />
-    <nd ref='1865053217' />
     <tag k='highway' v='service' />
   </way>
   <way id='175941562' timestamp='2012-11-08T01:26:10Z' uid='128470' user='vkungys' visible='true' version='3' changeset='13792280'>
@@ -34412,7 +34632,7 @@
     <nd ref='1996623057' />
     <tag k='railway' v='platform' />
   </way>
-  <way id='191010941' timestamp='2012-11-16T01:35:02Z' uid='481533' user='dbaron' visible='true' version='1' changeset='13889578'>
+  <way id='191010941' action='modify' timestamp='2012-11-16T01:35:02Z' uid='481533' user='dbaron' visible='true' version='1' changeset='13889578'>
     <nd ref='258967888' />
     <nd ref='258967887' />
     <nd ref='258967886' />
@@ -34441,13 +34661,11 @@
     <tag k='highway' v='tertiary' />
     <tag k='name' v='Dolores Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Dolores' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192300215:192300226:192300228:192285122:192285126:192284950:192300245:192284936:192301181:192301175:192284861:192301183:192301185:192284241:192301187:192284857:192284874:192301178:192284223:192301201:192301206:192301235:192301208:192284236:192284237:19230' />
     <tag k='tiger:zip_left' v='94110' />
   </way>
   <way id='191293481' timestamp='2012-12-29T09:20:23Z' uid='933797' user='oba510' visible='true' version='2' changeset='14448193'>
@@ -34834,16 +35052,19 @@
     <tag k='footway' v='crossing' />
     <tag k='highway' v='footway' />
   </way>
-  <way id='202317710' timestamp='2013-02-10T19:04:38Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14985472'>
+  <way id='202317710' action='modify' timestamp='2013-02-10T19:04:38Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14985472'>
     <nd ref='65281218' />
+    <nd ref='-19242' />
     <nd ref='1723738945' />
     <nd ref='1723738877' />
+    <nd ref='-19266' />
     <nd ref='1723738984' />
     <nd ref='1723738842' />
     <tag k='cycleway' v='lane' />
     <tag k='highway' v='primary' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
@@ -34990,23 +35211,26 @@
     <tag k='tiger:zip_left' v='94117' />
     <tag k='tiger:zip_right' v='94117' />
   </way>
-  <way id='204964658' timestamp='2013-02-10T19:09:21Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14985546'>
+  <way id='204964658' action='modify' timestamp='2013-02-10T19:09:21Z' uid='153669' user='dchiles' visible='true' version='2' changeset='14985546'>
     <nd ref='1723739367' />
     <nd ref='1723739068' />
     <nd ref='1723738980' />
+    <nd ref='-19260' />
     <nd ref='1723738914' />
     <nd ref='1723739185' />
+    <nd ref='-19240' />
     <nd ref='267455477' />
     <tag k='cycleway' v='lane' />
     <tag k='highway' v='primary' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
     <tag k='tiger:name_type' v='St' />
   </way>
-  <way id='204964839' timestamp='2013-02-10T19:04:36Z' uid='153669' user='dchiles' visible='true' version='1' changeset='14985472'>
+  <way id='204964839' action='modify' timestamp='2013-02-10T19:04:36Z' uid='153669' user='dchiles' visible='true' version='1' changeset='14985472'>
     <nd ref='1723738842' />
     <nd ref='1723738808' />
     <nd ref='1723738927' />
@@ -35022,6 +35246,7 @@
     <nd ref='65350734' />
     <nd ref='1723739260' />
     <nd ref='1723738919' />
+    <nd ref='-19288' />
     <nd ref='1723739152' />
     <nd ref='1723738884' />
     <nd ref='1723738897' />
@@ -35031,18 +35256,20 @@
     <tag k='highway' v='primary' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
     <tag k='tiger:name_type' v='St' />
   </way>
-  <way id='204965181' timestamp='2013-02-10T19:09:21Z' uid='153669' user='dchiles' visible='true' version='1' changeset='14985546'>
+  <way id='204965181' action='modify' timestamp='2013-02-10T19:09:21Z' uid='153669' user='dchiles' visible='true' version='1' changeset='14985546'>
     <nd ref='267455477' />
     <nd ref='267455452' />
     <tag k='cycleway' v='lane' />
     <tag k='highway' v='primary' />
     <tag k='name' v='Market Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Market' />
@@ -40401,10 +40628,10 @@
     <tag k='restriction' v='no_left_turn' />
     <tag k='type' v='restriction' />
   </relation>
-  <relation id='2079278' timestamp='2012-03-12T05:09:40Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='10951062'>
-    <member type='way' ref='8917489' role='from' />
+  <relation id='2079278' action='modify' timestamp='2012-03-12T05:09:40Z' uid='116029' user='Gregory Arenius' visible='true' version='1' changeset='10951062'>
     <member type='way' ref='8922384' role='to' />
     <member type='node' ref='65318978' role='via' />
+    <member type='way' ref='-19205' role='from' />
     <tag k='name' v='No Left from Laguna Northbound to Hermann' />
     <tag k='restriction' v='no_left_turn' />
     <tag k='type' v='restriction' />
