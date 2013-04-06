@@ -134,7 +134,7 @@ Map {
 	    line-color: #fff;
       }
         
-      [on_bus_route="yes"] {
+      [on_bus_route="yes"][interesting_to_peds="yes"] {
         ::busroute {
           line-width: 14;
           line-color:#fdd6a4;
