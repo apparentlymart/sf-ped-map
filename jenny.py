@@ -248,7 +248,7 @@ for way_id, way in ways.iteritems():
             elif sidewalk in ("none", "separate"):
                 pass
             else:
-                if way.tags.get("highway") not in ("motorway", "cycleway", "motorway_link", "service"):
+                if way.tags.get("highway") not in ("motorway", "cycleway", "motorway_link", "service") and way.tags.get("foot") != "no":
                     sidewalk_left = True
                     sidewalk_right = True
 
