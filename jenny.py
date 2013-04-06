@@ -138,17 +138,17 @@ class DataFile(object):
 
     def add_point(self, obj):
         wkt = obj.point.wkt
-        others = [obj.tags.get(k) for k in self.tag_keys]
+        others = [obj.tags.get(k, "").encode("utf-8") for k in self.tag_keys]
         self.csv.writerow([wkt] + others)
 
     def add_way(self, obj):
         wkt = obj.line_string.wkt
-        others = [obj.tags.get(k) for k in self.tag_keys]
+        others = [obj.tags.get(k, "").encode("utf-8") for k in self.tag_keys]
         self.csv.writerow([wkt] + others)
 
     def add_polygon(self, obj):
         wkt = obj.polygon.wkt
-        others = [obj.tags.get(k) for k in self.tag_keys]
+        others = [obj.tags.get(k, "").encode("utf-8") for k in self.tag_keys]
         self.csv.writerow([wkt] + others)
 
 
