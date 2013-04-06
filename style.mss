@@ -166,3 +166,81 @@ Map {
   }
 }
 
+#pois {
+  ::marker {
+    marker-width:12;
+    marker-fill:#813;
+    marker-line-color:#813;
+    marker-allow-overlap:false;
+    [shop!=""] {
+      marker-file: url(symbols/shop-12.png);
+    }
+    [amenity="fast_food"] {
+      marker-file: url(symbols/fast-food-12.png);
+    }
+    [amenity="restaurant"] {
+      marker-file: url(symbols/restaurant-12.png);
+    }
+    [amenity="cafe"] {
+      marker-file: url(symbols/cafe-12.png);
+    }
+    [amenity="bar"] {
+      marker-file: url(symbols/bar-12.png);
+    }
+    [amenity="pub"] {
+      marker-file: url(symbols/bar-12.png);
+    }
+    [amenity="bank"] {
+      marker-file: url(symbols/bank-12.png);
+    }
+    [amenity="atm"] {
+      marker-file: url(symbols/bank-12.png);
+    }
+    [amenity="post_box"] {
+      marker-file: url(symbols/post-12.png);
+    }
+    [amenity="post_office"] {
+      marker-file: url(symbols/post-12.png);
+    }
+    [amenity="bicycle_rental"] {
+      marker-file: url(symbols/bicycle-12.png);
+    }
+    [amenity="toilets"] {
+      marker-file: url(symbols/toilets-12.png);
+    }
+    [amenity="ferry_terminal"] {
+      marker-file: url(symbols/ferry-12.png);
+    }
+    [amenity="library"] {
+      marker-file: url(symbols/library-12.png);
+    }
+    [amenity="drinking_water"] {
+      marker-file: url(symbols/water-12.png);
+    }
+    [amenity="pharmacy"] {
+      marker-file: url(symbols/pharmacy-12.png);
+    }
+    [amenity="place_of_worship"] {
+      marker-file: url(symbols/place-of-worship-12.png);
+    }
+    [amenity="school"] {
+      marker-file: url(symbols/school-12.png);
+    }
+    [amenity="kindergarten"] {
+      marker-file: url(symbols/school-12.png);
+    }
+    [amenity="college"] {
+      marker-file: url(symbols/college-12.png);
+    }
+    [amenity="waste_basket"] {
+      marker-file: url(symbols/waste-basket-12.png);
+    }
+  }
+  ::label {
+    text-name: "[name]";
+    text-face-name: "Arial Regular";
+    text-size: 8;
+    text-placement: point;
+    text-dy: 12;
+  }
+}

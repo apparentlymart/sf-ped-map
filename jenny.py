@@ -214,6 +214,14 @@ buildings = DataFile.open_new("buildings", [
     "building:levels",
     "shop",
 ])
+pois = DataFile.open_new("pois", [
+    "name",
+    "amenity",
+    "shop",
+    "office",
+    "food",
+    "cuisine",
+])
 
 for way_id, way in ways.iteritems():
     if "highway" in way.tags:
@@ -222,6 +230,7 @@ for way_id, way in ways.iteritems():
             # Just turn paths into footways for ease of common rendering
             if way.tags["highway"] == "path":
                 way.tags["highway"] = "footway"
+
             sidewalk = way.tags.get("sidewalk", None)
             sidewalk_left = False
             sidewalk_right = False
@@ -258,3 +267,11 @@ for way_id, way in ways.iteritems():
 
     if "building" in way.tags:
         buildings.add_polygon(way)
+
+
+for node_id, node in nodes.iteritems():
+    if node.tags.get("amenity") in ("fuel","parking","bicycle_parking","telephone","taxi","car_sharing","bench"):
+        continue
+    for poi_key in ("amenity", "shop", "food", "cuisine"):
+        if poi_key in node.tags:
+            pois.add_point(node)

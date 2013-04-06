@@ -88,6 +88,27 @@
       "srs": "",
       "advanced": {},
       "name": "buildings"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -122.4363602,
+        37.7657632,
+        -122.28013879999999,
+        37.7944678
+      ],
+      "id": "pois",
+      "class": "",
+      "Datasource": {
+        "file": "layers/pois.csv",
+        "id": "pois",
+        "project": "PedMap",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "pois"
     }
   ],
   "scale": 1,
