@@ -29,30 +29,30 @@ Map {
 #highways {
   [highway!="footway"] {
     ::leftpath {
-      line-width: 2;
+      line-width: 1;
       line-offset: 8;
       line-color: #ccc;
 
       [sidewalk_left="yes"] {
+        line-width: 2;
         line-color: #222;
       }
     }
     ::rightpath {
-      line-width: 2;
+      line-width: 1;
       line-offset: -8;
       line-color: #ccc;
       
       [sidewalk_right="yes"] {
+        line-width: 2;
         line-color: #222;
       }
     }
   }
   [highway="footway"] {
-    ::inside {
-    	line-width: 4;
-        line-color: #222;
-        line-smooth: 1;
-    }
+    line-width: 2;
+    line-color: #222;
+    line-smooth: 1;
   }
   [highway!="footway"] {
     ::inside {
