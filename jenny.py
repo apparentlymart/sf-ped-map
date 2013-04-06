@@ -205,6 +205,7 @@ highways = DataFile.open_new("highways", [
     "sidewalk_right",
     "on_bus_route",
     "interesting_to_peds",
+    "steps",
 ])
 landuse = DataFile.open_new("landuse", [
     "landuse",
@@ -230,6 +231,9 @@ for way_id, way in ways.iteritems():
             # Just turn paths into footways for ease of common rendering
             if way.tags["highway"] == "path":
                 way.tags["highway"] = "footway"
+            if way.tags["highway"] == "steps":
+                way.tags["highway"] = "footway"
+                way.tags["steps"] = "yes"
 
             sidewalk = way.tags.get("sidewalk", None)
             sidewalk_left = False
