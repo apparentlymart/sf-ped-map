@@ -4760,7 +4760,7 @@
   <node id='763663712' timestamp='2012-04-20T06:19:15Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7819187' lon='-122.3881205' />
   <node id='763663714' timestamp='2012-04-20T06:19:21Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7821834' lon='-122.3881017' />
   <node id='763663715' timestamp='2012-04-20T06:19:25Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.782276' lon='-122.3880976' />
-  <node id='763663716' timestamp='2012-04-20T06:19:24Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7823969' lon='-122.3881003' />
+  <node id='763663716' timestamp='2012-04-20T06:19:24Z' uid='14293' user='KindredCoda' visible='true' version='4' changeset='15628685' lat='37.7823969' lon='-122.3881003' />
   <node id='763663717' timestamp='2012-04-20T06:19:24Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7824901' lon='-122.3880988' />
   <node id='763663733' timestamp='2012-04-20T06:19:26Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.7831049' lon='-122.3880493' />
   <node id='763663734' timestamp='2012-04-20T06:19:26Z' uid='14293' user='KindredCoda' visible='true' version='3' changeset='11360599' lat='37.783221' lon='-122.3880305' />
@@ -14474,6 +14474,19 @@
   <node id='2251661752' visible='true' version='1' changeset='15627829' lat='37.772920356624354' lon='-122.42336840173941' />
   <node id='2251661753' visible='true' version='1' changeset='15627829' lat='37.772930137735834' lon='-122.42329725014366' />
   <node id='2251842337' visible='true' version='1' changeset='15628347' lat='37.767869664022065' lon='-122.42875615825162' />
+  <node id='2251965263' visible='true' version='1' changeset='15628685' lat='37.78107415203493' lon='-122.39467004164493' />
+  <node id='2251965266' visible='true' version='1' changeset='15628685' lat='37.781108435026496' lon='-122.39464811283415' />
+  <node id='2251965267' visible='true' version='1' changeset='15628685' lat='37.781173482662965' lon='-122.39461054035607' />
+  <node id='2251965269' visible='true' version='1' changeset='15628685' lat='37.78126822585717' lon='-122.39450497958435' />
+  <node id='2251965270' visible='true' version='1' changeset='15628685' lat='37.78136438300473' lon='-122.3943761596595' />
+  <node id='2251965271' visible='true' version='1' changeset='15628685' lat='37.78145559077172' lon='-122.39426791513937' />
+  <node id='2251965272' visible='true' version='1' changeset='15628685' lat='37.781552454711125' lon='-122.39414356812861' />
+  <node id='2251965274' visible='true' version='1' changeset='15628685' lat='37.781644175670365' lon='-122.39403153699823' />
+  <node id='2251965276' visible='true' version='1' changeset='15628685' lat='37.781708002377414' lon='-122.39395481115541' />
+  <node id='2251965277' visible='true' version='1' changeset='15628685' lat='37.78188476069178' lon='-122.393729376287' />
+  <node id='2251965278' visible='true' version='1' changeset='15628685' lat='37.78202546000786' lon='-122.39353167348573' />
+  <node id='2251965279' visible='true' version='1' changeset='15628685' lat='37.78210606150545' lon='-122.3933876456531' />
+  <node id='2251965280' visible='true' version='1' changeset='15628685' lat='37.78217048222237' lon='-122.39328921814761' />
   <way id='4786909' timestamp='2012-08-13T22:43:43Z' uid='573196' user='nithin_telenav' visible='true' version='13' changeset='12720719'>
     <nd ref='30677579' />
     <nd ref='307105641' />
@@ -14870,7 +14883,7 @@
     <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
     <tag k='tiger:tlid' v='192289443' />
   </way>
-  <way id='8916553' timestamp='2012-02-04T22:36:30Z' uid='236172' user='saikofish' visible='true' version='10' changeset='10589273'>
+  <way id='8916553' timestamp='2012-02-04T22:36:30Z' uid='236172' user='saikofish' visible='true' version='11' changeset='15628685'>
     <nd ref='65299092' />
     <nd ref='65299115' />
     <nd ref='65299113' />
@@ -14884,13 +14897,11 @@
     <tag k='highway' v='residential' />
     <tag k='name' v='South Park Avenue' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_direction_prefix' v='S' />
     <tag k='tiger:name_type' v='Ave' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192289445:192289446:192289449' />
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94107' />
   </way>
@@ -15583,7 +15594,7 @@
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_type' v='St' />
   </way>
-  <way id='8918793' timestamp='2012-12-17T10:33:10Z' uid='933797' user='oba510' visible='true' version='27' changeset='14304206'>
+  <way id='8918793' timestamp='2012-12-17T10:33:10Z' uid='933797' user='oba510' visible='true' version='28' changeset='15628685'>
     <nd ref='260193613' />
     <nd ref='65373277' />
     <nd ref='763662526' />
@@ -15612,6 +15623,7 @@
     <tag k='name' v='Embarcadero South Street' />
     <tag k='name_1' v='The Embarcadero' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='Embarcadero South' />
@@ -16294,7 +16306,7 @@
     <tag k='tiger:tlid' v='192282323:192282273:192282350:192282261:192283281:192283302:192283309:192283393:192283415:192283729:192283767:192283737:192283421:192283399:192283287' />
     <tag k='tiger:zip_left' v='94117' />
   </way>
-  <way id='8920391' timestamp='2013-01-08T08:00:19Z' uid='933797' user='oba510' visible='true' version='23' changeset='14571488'>
+  <way id='8920391' timestamp='2013-01-08T08:00:19Z' uid='933797' user='oba510' visible='true' version='24' changeset='15628685'>
     <nd ref='65355330' />
     <nd ref='590986990' />
     <nd ref='945301300' />
@@ -16308,6 +16320,7 @@
     <tag k='highway' v='primary' />
     <tag k='name' v='King Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='King' />
@@ -16315,7 +16328,7 @@
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94158' />
   </way>
-  <way id='8920394' timestamp='2012-04-20T06:19:35Z' uid='14293' user='KindredCoda' visible='true' version='25' changeset='11360599'>
+  <way id='8920394' timestamp='2012-04-20T06:19:35Z' uid='14293' user='KindredCoda' visible='true' version='26' changeset='15628685'>
     <nd ref='260193222' />
     <nd ref='260193333' />
     <nd ref='763669352' />
@@ -16336,13 +16349,11 @@
     <tag k='lcn_ref' v='5' />
     <tag k='name' v='King Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A45' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='King' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='yes' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192301758' />
     <tag k='tiger:zip_left' v='94107' />
   </way>
   <way id='8920411' timestamp='2010-03-27T15:23:32Z' uid='20587' user='balrog-kun' visible='true' version='2' changeset='4245371'>
@@ -18817,7 +18828,7 @@
     <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
     <tag k='tiger:tlid' v='192296778' />
   </way>
-  <way id='27041554' timestamp='2012-11-07T18:10:20Z' uid='86504' user='Thomas8122' visible='true' version='15' changeset='13788340'>
+  <way id='27041554' timestamp='2012-11-07T18:10:20Z' uid='86504' user='Thomas8122' visible='true' version='16' changeset='15628685'>
     <nd ref='260193156' />
     <nd ref='945302892' />
     <nd ref='260193242' />
@@ -18840,13 +18851,11 @@
     <tag k='lcn_ref' v='5' />
     <tag k='name' v='King Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='King' />
     <tag k='tiger:name_type' v='St' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192288154:192288156:192296866:192301742:192296868:192301393' />
     <tag k='tiger:zip_left' v='94107' />
     <tag k='tiger:zip_right' v='94158' />
   </way>
@@ -18869,7 +18878,7 @@
     <tag k='tiger:tlid' v='192300864:192300866:192300936' />
     <tag k='tiger:zip_left' v='94124' />
   </way>
-  <way id='27145438' timestamp='2013-01-08T08:00:18Z' uid='933797' user='oba510' visible='true' version='10' changeset='14571488'>
+  <way id='27145438' timestamp='2013-01-08T08:00:18Z' uid='933797' user='oba510' visible='true' version='11' changeset='15628685'>
     <nd ref='260193331' />
     <nd ref='945302341' />
     <nd ref='945302342' />
@@ -18885,6 +18894,7 @@
     <tag k='highway' v='primary' />
     <tag k='name' v='King Street' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_base' v='King' />
@@ -22127,8 +22137,9 @@
     <tag k='foot' v='yes' />
     <tag k='highway' v='footway' />
   </way>
-  <way id='47172834' timestamp='2012-02-04T22:36:29Z' uid='236172' user='saikofish' visible='true' version='8' changeset='10589273'>
+  <way id='47172834' timestamp='2012-02-04T22:36:29Z' uid='236172' user='saikofish' visible='true' version='9' changeset='15628685'>
     <nd ref='65299062' />
+    <nd ref='2251965280' />
     <nd ref='1618243466' />
     <nd ref='65299065' />
     <nd ref='65299067' />
@@ -22137,17 +22148,16 @@
     <nd ref='65299085' />
     <nd ref='65299086' />
     <nd ref='65299087' />
+    <nd ref='2251965263' />
     <nd ref='65299092' />
     <tag k='highway' v='residential' />
     <tag k='name' v='South Park Avenue' />
     <tag k='oneway' v='yes' />
+    <tag k='sidewalk' v='right' />
     <tag k='tiger:cfcc' v='A41' />
     <tag k='tiger:county' v='San Francisco, CA' />
     <tag k='tiger:name_direction_prefix' v='S' />
     <tag k='tiger:name_type' v='Ave' />
-    <tag k='tiger:separated' v='no' />
-    <tag k='tiger:source' v='tiger_import_dch_v0.6_20070809' />
-    <tag k='tiger:tlid' v='192289443' />
   </way>
   <way id='47172835' timestamp='2010-03-28T11:35:56Z' uid='20587' user='balrog-kun' visible='true' version='2' changeset='4254597'>
     <nd ref='65299092' />
@@ -35589,6 +35599,28 @@
     <tag k='tiger:name_type' v='St' />
     <tag k='tiger:zip_left' v='94114' />
     <tag k='tiger:zip_right' v='94114' />
+  </way>
+  <way id='215749861' visible='true' version='1' changeset='15628685'>
+    <nd ref='2251965263' />
+    <nd ref='2251965266' />
+    <nd ref='2251965267' />
+    <nd ref='2251965269' />
+    <nd ref='2251965270' />
+    <nd ref='2251965271' />
+    <nd ref='2251965272' />
+    <nd ref='2251965274' />
+    <nd ref='2251965276' />
+    <nd ref='2251965277' />
+    <nd ref='2251965278' />
+    <nd ref='2251965279' />
+    <nd ref='2251965280' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='215749862' visible='true' version='1' changeset='15628685'>
+    <nd ref='65299107' />
+    <nd ref='2251965274' />
+    <nd ref='65299078' />
+    <tag k='highway' v='footway' />
   </way>
   <relation id='32310' timestamp='2013-04-05T04:46:58Z' uid='6585' user='Martin Atkins' visible='true' version='40' changeset='15615470'>
     <member type='way' ref='112408722' role='' />
