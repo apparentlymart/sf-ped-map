@@ -102,7 +102,7 @@ Map {
   [highway="footway"] {
     line-width: 2;
     line-color: #222;
-    line-smooth: 1;
+    line-smooth: 0.25;
 
     ::footlabel {
       text-placement: line;
