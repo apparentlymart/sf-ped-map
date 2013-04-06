@@ -219,6 +219,9 @@ for way_id, way in ways.iteritems():
     if "highway" in way.tags:
         if way.tags.get("area", None) != "yes":
 
+            # Just turn paths into footways for ease of common rendering
+            if way.tags["highway"] == "path":
+                way.tags["highway"] = "footway"
             sidewalk = way.tags.get("sidewalk", None)
             sidewalk_left = False
             sidewalk_right = False
@@ -229,10 +232,10 @@ for way_id, way in ways.iteritems():
                 sidewalk_left = True
             elif sidewalk == "right":
                 sidewalk_right = True
-            elif sidewalk == "none":
+            elif sidewalk in ("none", "separate"):
                 pass
             else:
-                if way.tags.get("highway") not in ("motorway", "cycleway", "motorway_link"):
+                if way.tags.get("highway") not in ("motorway", "cycleway", "motorway_link", "service"):
                     sidewalk_left = True
                     sidewalk_right = True
 

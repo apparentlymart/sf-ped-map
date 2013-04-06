@@ -69,6 +69,15 @@ Map {
         line-width: 2;
         line-color: #222;
       }
+      [highway="cycleway"] {
+        line-offset: 4;
+      }
+      [highway="service"] {
+        line-offset: 4;
+      }
+      [highway="residential"] {
+        line-offset: 6;
+      }
     }
     ::rightpath {
       line-width: 1;
@@ -79,12 +88,31 @@ Map {
         line-width: 2;
         line-color: #222;
       }
+      [highway="cycleway"] {
+        line-offset: -4;
+      }
+      [highway="service"] {
+        line-offset: -4;
+      }
+      [highway="residential"] {
+        line-offset: -6;
+      }
     }
   }
   [highway="footway"] {
     line-width: 2;
     line-color: #222;
     line-smooth: 1;
+
+    ::footlabel {
+      text-placement: line;
+      text-name: "[name]";
+      text-face-name: "Arial Regular";
+      text-size: 12;
+      text-avoid-edges: true;
+      text-halo-fill: #eeeeee;
+      text-halo-radius: 5;
+    }
   }
   [highway!="footway"] {
     ::inside {
@@ -92,6 +120,16 @@ Map {
       line-color: #ddd;
       line-cap: round;
 
+      [highway="cycleway"] {
+        line-width: 7;
+      }
+      [highway="service"] {
+        line-width: 7;
+      }
+      [highway="residential"] {
+        line-width: 10;
+      }
+      
       [interesting_to_peds="no"] {
 	    line-color: #fff;
       }
@@ -101,6 +139,9 @@ Map {
           line-width: 14;
           line-color:#fdd6a4;
           line-cap: round;
+          [highway="residential"] {
+            line-width: 10;
+          }
         }
       }
     }
@@ -111,6 +152,15 @@ Map {
         text-face-name: "Arial Regular";
         text-size: 12;
         text-avoid-edges: true;
+        [highway="cycleway"] {
+          text-size: 8;
+        }
+        [highway="service"] {
+          text-size: 8;
+        }
+        [highway="residential"] {
+          text-size: 10;
+        }
       }
     }
   }
