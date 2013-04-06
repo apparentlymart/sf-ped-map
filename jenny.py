@@ -51,6 +51,11 @@ class Way(object):
         self.nodes = nodes
         self.tags = tags
         coords = [(n.lon, n.lat) for n in nodes]
+        if len(coords) < 2:
+            # If we find a way with only one node then just double-up
+            # that node to keep the data model sensible even if the
+            # data itself isn;t.
+            coords = coords + coords
         self.line_string = LineString(coords)
         if len(coords) > 3:
             self.polygon = Polygon(list(coords[:-1]))
