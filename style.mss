@@ -33,6 +33,12 @@ Map {
     polygon-opacity:1;
     line-opacity: 1;
   }
+  [landuse="pedestrian"] {
+    polygon-fill:#ddd;
+    line-color:#cae0c9;
+    polygon-opacity:1;
+    line-opacity: 1;
+  }
   [landuse="parking"] {
     polygon-fill:#fff;
     line-color:#ccc;

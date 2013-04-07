@@ -279,6 +279,10 @@ for way_id, way in ways.iteritems():
         way.tags["landuse"] = "parking"
     if way.tags.get("leisure") == "park" and "landuse" not in way.tags:
         way.tags["landuse"] = "park"
+    if way.tags.get("leisure") == "common" and "landuse" not in way.tags:
+        way.tags["landuse"] = "common"
+    if way.tags.get("highway") == "pedestrian" and way.tags.get("area") == "yes" and "landuse" not in way.tags:
+        way.tags["landuse"] = "pedestrian"
 
     if "landuse" in way.tags:
         landuse.add_polygon(way)
