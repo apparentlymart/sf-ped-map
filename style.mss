@@ -104,7 +104,7 @@ Map {
       text-placement: line;
       text-name: "[name]";
       text-face-name: "Arial Regular";
-      text-size: 12;
+      text-size: 10;
       text-avoid-edges: true;
       text-halo-fill: #eeeeee;
       text-halo-radius: 5;
