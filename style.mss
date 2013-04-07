@@ -83,6 +83,10 @@ Map {
     line-smooth: 0.25;
     line-dasharray: 2, 2;
 
+    [steps="yes"] {
+      line-width: 4;
+    }
+    
     ::footlabel {
       text-placement: line;
       text-name: "[name]";
