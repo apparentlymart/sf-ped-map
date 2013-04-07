@@ -166,6 +166,16 @@ Map {
         }
       }
     }
+    ::centerpath {
+      line-width: 2;
+      line-color: #070;
+      line-opacity: 0;
+      line-dasharray: 2, 2;
+      
+      [foot="yes"] {
+        line-opacity: 1;
+      }
+    }
     ::label {
       [interesting_to_peds="yes"] {
         text-placement: line;
