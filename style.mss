@@ -60,49 +60,28 @@ Map {
 
 #highways {
   [highway!="footway"] {
-    ::leftpath {
-      line-width: 1;
-      line-offset: 8;
+    ::outside {
+      line-width: 16;
       line-color: #ccc;
+      line-cap: round;
 
-      [sidewalk_left="yes"] {
-        line-width: 2;
-        line-color: #222;
-      }
       [highway="cycleway"] {
-        line-offset: 4;
+        line-width: 10;
       }
       [highway="service"] {
-        line-offset: 4;
+        line-width: 10;
       }
       [highway="residential"] {
-        line-offset: 6;
+        line-width: 12;
       }
-    }
-    ::rightpath {
-      line-width: 1;
-      line-offset: -8;
-      line-color: #ccc;
       
-      [sidewalk_right="yes"] {
-        line-width: 2;
-        line-color: #222;
-      }
-      [highway="cycleway"] {
-        line-offset: -4;
-      }
-      [highway="service"] {
-        line-offset: -4;
-      }
-      [highway="residential"] {
-        line-offset: -6;
-      }
     }
   }
   [highway="footway"] {
     line-width: 2;
-    line-color: #222;
+    line-color: #070;
     line-smooth: 0.25;
+    line-dasharray: 2, 2;
 
     ::footlabel {
       text-placement: line;
@@ -115,6 +94,48 @@ Map {
     }
   }
   [highway!="footway"] {
+
+    ::leftpath {
+      line-width: 2;
+      line-offset: 8;
+      line-color: #070;
+      line-opacity: 0;
+      line-dasharray: 2, 2;
+
+      [sidewalk_left="yes"] {
+        line-opacity: 1;
+      }
+      [highway="cycleway"] {
+        line-offset: 4;
+      }
+      [highway="service"] {
+        line-offset: 4;
+      }
+      [highway="residential"] {
+        line-offset: 6;
+      }
+    }
+    ::rightpath {
+      line-width: 2;
+      line-offset: -8;
+      line-color: #070;
+      line-opacity: 0;
+      line-dasharray: 2, 2;
+      
+      [sidewalk_right="yes"] {
+        line-opacity: 1;
+      }
+      [highway="cycleway"] {
+        line-offset: -4;
+      }
+      [highway="service"] {
+        line-offset: -4;
+      }
+      [highway="residential"] {
+        line-offset: -6;
+      }
+    }
+
     ::inside {
       line-width: 13;
       line-color: #ddd;
