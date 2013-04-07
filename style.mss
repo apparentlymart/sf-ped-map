@@ -210,21 +210,27 @@ Map {
       }
     }
     ::label {
-      [interesting_to_peds="yes"] {
-        text-placement: line;
-        text-name: "[name]";
-        text-face-name: "Arial Regular";
-        text-size: 12;
-        text-avoid-edges: true;
-        [highway="cycleway"] {
-          text-size: 8;
-        }
-        [highway="service"] {
-          text-size: 8;
-        }
-        [highway="residential"] {
-          text-size: 10;
-        }
+      text-placement: line;
+      text-name: "[name]";
+      text-face-name: "Arial Regular";
+      text-size: 12;
+      text-avoid-edges: true;
+      [tunnel="yes"] {
+         text-opacity: 0.25;
+      }
+
+      [interesting_to_peds="no"] {
+        text-fill: #aaa;
+      }
+      
+      [highway="cycleway"] {
+        text-size: 8;
+      }
+      [highway="service"] {
+        text-size: 8;
+      }
+      [highway="residential"] {
+        text-size: 10;
       }
     }
   }
