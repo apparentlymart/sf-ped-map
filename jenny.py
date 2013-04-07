@@ -51,6 +51,9 @@ class Way(object):
         self.nodes = nodes
         self.tags = tags
         coords = [(n.lon, n.lat) for n in nodes]
+        if len(coords) == 0:
+            # Invalid, but we'll clean up this mess in the caller.
+            return
         if len(coords) < 2:
             # If we find a way with only one node then just double-up
             # that node to keep the data model sensible even if the
@@ -171,7 +174,8 @@ for elem in root:
 
     elif elem.tag == "way":
         way = Way.from_xml_elem(elem)
-        ways[way.id] = way
+        if getattr(way, "polygon", None) is not None:
+            ways[way.id] = way
 
     elif elem.tag == "relation":
         relation = Relation.from_xml_elem(elem)
