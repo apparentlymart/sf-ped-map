@@ -71,6 +71,10 @@ Map {
       line-color: #ccc;
       line-cap: round;
 
+      [tunnel="yes"] {
+         line-opacity: 0;
+      }
+
       [highway="cycleway"] {
         line-width: 10;
       }
@@ -92,6 +96,9 @@ Map {
     [steps="yes"] {
       line-width: 4;
     }
+    [tunnel="yes"] {
+      line-opacity: 0.25;
+    }
     
     ::footlabel {
       text-placement: line;
@@ -101,6 +108,9 @@ Map {
       text-avoid-edges: true;
       text-halo-fill: #eeeeee;
       text-halo-radius: 5;
+      [tunnel="yes"] {
+        text-opacity: 0.25;
+      }
     }
   }
   [highway!="footway"] {
@@ -114,6 +124,9 @@ Map {
 
       [sidewalk_left="yes"] {
         line-opacity: 1;
+        [tunnel="yes"] {
+          line-opacity: 0.25;
+        }
       }
       [highway="cycleway"] {
         line-offset: 4;
@@ -134,6 +147,9 @@ Map {
       
       [sidewalk_right="yes"] {
         line-opacity: 1;
+        [tunnel="yes"] {
+          line-opacity: 0.25;
+        }
       }
       [highway="cycleway"] {
         line-offset: -4;
@@ -151,6 +167,10 @@ Map {
       line-color: #fff;
       line-cap: round;
 
+      [tunnel="yes"] {
+         line-opacity: 0.25;
+      }
+      
       [highway="cycleway"] {
         line-width: 7;
       }
@@ -184,6 +204,9 @@ Map {
       
       [foot="yes"] {
         line-opacity: 1;
+        [tunnel="yes"] {
+           line-opacity: 0.25;
+        }
       }
     }
     ::label {

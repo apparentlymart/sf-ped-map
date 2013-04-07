@@ -212,6 +212,7 @@ highways = DataFile.open_new("highways", [
     "interesting_to_peds",
     "steps",
     "foot",
+    "tunnel",
 ])
 landuse = DataFile.open_new("landuse", [
     "landuse",
