@@ -109,6 +109,24 @@
       "srs": "",
       "advanced": {},
       "name": "pois"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.47531070000001,
+        37.7465077,
+        -122.3635268,
+        37.8321375
+      ],
+      "id": "barrierlines",
+      "class": "",
+      "Datasource": {
+        "file": "layers/barrierlines.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "barrierlines"
     }
   ],
   "scale": 1,
@@ -116,5 +134,6 @@
   "name": "Pedestrian Map",
   "description": "",
   "attribution": "",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "legend": ""
 }
