@@ -142,7 +142,7 @@ Map {
 
     ::inside {
       line-width: 13;
-      line-color: #ddd;
+      line-color: #fff;
       line-cap: round;
 
       [highway="cycleway"] {
