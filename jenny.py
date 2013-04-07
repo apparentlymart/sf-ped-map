@@ -229,6 +229,9 @@ pois = DataFile.open_new("pois", [
     "food",
     "cuisine",
 ])
+barrierlines = DataFile.open_new("barrierlines", [
+    "barrier",
+])
 
 for way_id, way in ways.iteritems():
     if "highway" in way.tags:
@@ -286,6 +289,9 @@ for way_id, way in ways.iteritems():
 
     if "landuse" in way.tags:
         landuse.add_polygon(way)
+
+    if "barrier" in way.tags and way.tags.get("area") != "yes":
+        barrierlines.add_way(way)
 
     if "building" in way.tags:
         if way.tags.get("location") not in ("underground", "underwater"):

@@ -285,3 +285,28 @@ Map {
     text-dy: 12;
   }
 }
+
+
+#barrierlines {
+  line-width: 0.5;
+  line-color:#222;
+  line-opacity: 0.5;
+  
+  [barrier="retaining_wall"] {
+    line-width: 1.5;
+    ::retainermarks {
+      line-width: 1;
+      line-color: #222;
+      line-opacity: 0.5;
+      line-dasharray: 3, 10;
+      line-offset: 1;
+    }
+  }
+  [barrier="fence"] {
+    line-width: 0.5;
+    line-dasharray: 5, 1;
+  }
+  [barrier="wall"] {
+    line-width: 1;
+  }
+}
