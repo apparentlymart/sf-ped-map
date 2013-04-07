@@ -284,7 +284,8 @@ for way_id, way in ways.iteritems():
         landuse.add_polygon(way)
 
     if "building" in way.tags:
-        buildings.add_polygon(way)
+        if way.tags.get("location") not in ("underground", "underwater"):
+            buildings.add_polygon(way)
 
 
 for node_id, node in nodes.iteritems():
