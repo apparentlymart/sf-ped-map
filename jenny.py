@@ -239,7 +239,7 @@ for way_id, way in ways.iteritems():
         if way.tags.get("area", None) != "yes":
 
             # Just turn paths into footways for ease of common rendering
-            if way.tags["highway"] == "path":
+            if way.tags["highway"] in ("path", "pedestrian"):
                 way.tags["highway"] = "footway"
             if way.tags["highway"] == "steps":
                 way.tags["highway"] = "footway"
