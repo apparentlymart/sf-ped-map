@@ -236,6 +236,18 @@ Map {
   }
 }
 
+#rails {
+  ::track1 {
+    line-width:1;
+    line-color:#555;
+    ::dashes {
+      line-width: 3;
+      line-color: #555;
+      line-dasharray: 1, 20;
+    }
+  }
+}
+
 #pois {
   ::marker {
     marker-width:12;
@@ -339,3 +351,4 @@ Map {
     line-width: 1;
   }
 }
+

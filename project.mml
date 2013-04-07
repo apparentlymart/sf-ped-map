@@ -127,6 +127,27 @@
       "srs": "",
       "advanced": {},
       "name": "barrierlines"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -122.50930829999999,
+        37.7413759,
+        -122.38732829999998,
+        37.8086367
+      ],
+      "id": "rails",
+      "class": "",
+      "Datasource": {
+        "file": "layers/rails.csv",
+        "id": "rails",
+        "project": "PedMap",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rails"
     }
   ],
   "scale": 1,

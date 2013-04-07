@@ -237,6 +237,10 @@ pois = DataFile.open_new("pois", [
 barrierlines = DataFile.open_new("barrierlines", [
     "barrier",
 ])
+rails = DataFile.open_new("rails", [
+    "railway",
+    "tracks",
+])
 
 for way_id, way in ways.iteritems():
     if "highway" in way.tags:
@@ -301,6 +305,15 @@ for way_id, way in ways.iteritems():
     if "building" in way.tags:
         if way.tags.get("location") not in ("underground", "underwater"):
             buildings.add_polygon(way)
+
+    if way.tags.get("railway") in ("tram", "light_rail", "rail"):
+        if way.tags.get("tunnel") == "yes":
+            # Don't care about underground railways.
+            continue
+        if way.tags["railway"] == "light_rail":
+            # normalize for easy rendering
+            way.tags["railway"] = "tram"
+        rails.add_way(way)
 
 
 for node_id, node in nodes.iteritems():
